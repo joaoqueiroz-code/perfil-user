@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --background: #211f25;
+    --color-fonts: #e5e5e5;
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+hr {
+    width:100%;
+}
+
+body {
+    background-color: var(--background);
+    font-family: var(--montserrat);
+    color: var(--color-fonts);
+}

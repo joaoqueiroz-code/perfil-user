@@ -1,0 +1,35 @@
+.subtitle-current {
+    margin: 0.8em 0;
+}
+
+.input-group {
+    /* padding: 0.5em; */
+    margin: 0.8em 0;
+    width: 35%;
+}
+
+.input-group label {
+    display: block;
+}
+
+.form-input {
+    background: #222;
+    border-radius: 0.6em;
+    border: 1px solid #ccc;
+    height: 2em;
+    width: 100%;
+    color: #e5e5e5;
+}
+
+.form-image {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    margin: 0.8em 0;
+    border: 1px solid #ccc;
+    /* background: #ccc; */
+}
+
+.form-input:focus-visible, .form-input:focus{
+    outline: none;
+}

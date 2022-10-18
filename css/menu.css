@@ -1,0 +1,15 @@
+@import url(style.css);
+.menu-item {
+    font-size: 1.2em;
+    margin: 0.9em 0;
+}
+
+.menu-item button{
+    width: 100%;
+    background: transparent;
+    font-size: 1em;
+    border: none;
+    color: var(--color-fonts);
+    text-align: start;
+    cursor: pointer;
+}

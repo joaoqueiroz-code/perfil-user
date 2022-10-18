@@ -4,24 +4,80 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/container.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/content.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
         <title>Perfil</title>
     </head>
     <body>
         <main class="container-principal">
-            <menu>
+
+            <menu class="container-menu">
+
+                <h2 class="subtitle-current">Ações</h2>
+
                 <ul>
-                    <li>Alterar e-mail</li>
-                    <li>Alterar senha</li>
-                    <li>Ver desempenho</li>
-                    <li title="conta premium" alt="upgrade de conta normal para conta premium">Conta premium</li>
-                    <li>Exibir mais</li>
+                    <li class="menu-item"><button>Alterar e-mail</button></li>
+                    <li class="menu-item"><button>Alterar senha</button></li>
+                    <li class="menu-item"><button>Ver desempenho</button></li>
+                    <li class="menu-item" title="conta premium" alt="upgrade de conta normal para conta premium"><button>Conta premium</button></li>
+                    <li class="menu-item"><button>Exibir mais</button></li>
                 </ul>
             </menu>
     
-            <section class="container-">
+            <section class="container-current">
+
+                <div class="subcontainer-current">
+
+                    <h2 class="subtitle-current">Perfil</h2>
     
+                    <div class="input-group">
+                        <label for="">Nome</label>
+                        <input class="form-input" id="" name="" type="text">
+                    </div>
+    
+                    <div class="input-group">
+                        <label for="">E-mail</label>
+                        <input class="form-input" id="" name="" type="email">
+                    </div>
+    
+                    <div class="input-group">
+                        <label for="">CPF</label>
+                        <input class="form-input" id="" name="" type="text">
+                    </div>
+    
+                    <div class="input-group">
+                        <label for="">Endereço</label>
+                        <input class="form-input" id="" name="" type="text">
+                    </div>
+    
+                    <div class="input-group">
+                        <label for="">Número</label>
+                        <input class="form-input" id="" name="" type="text">
+                    </div>
+                    
+                </div>
+                
+                <div class="subcontainer-image">
+                    
+                    <div class="input-group">
+                        <label for="">Imagem</label>
+
+                        <img onclick="trigger()" id="previewImage" class="form-image"></img>
+                        <input hidden id="uploadImage" accept="" name="" type="file">
+                    </div>
+
+                </div>
+
             </section>
+
         </main>
     </body>
+    <script src="js/previewImage.js"></script>
 </html>

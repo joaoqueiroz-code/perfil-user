@@ -1,4 +1,25 @@
 .container-principal {
     display: flex;
-    
+    justify-content: space-between;
+}
+
+.container-current {
+    height: 95vh;
+    width: 60%;
+    padding: 1.2em;
+}
+
+.subcontainer-current {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container-menu {
+    padding: 1.25em;
+    background: #322f36;
+}
+.container-menu ul {
+    list-style-type: none;
+    padding: 0;
 }
