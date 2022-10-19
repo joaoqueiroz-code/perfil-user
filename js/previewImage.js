@@ -1,6 +1,6 @@
 function trigger() {
+    let uploadImage = document.getElementById('uploadImage');
     uploadImage.click();
-    return true;
 }
 
 function previewImage() {
@@ -11,6 +11,7 @@ function previewImage() {
 
     const [file] = uploadImage.files;
     if(file) {
+        previewImage.removeAttribute('style')
         previewImage.src = URL.createObjectURL(file);
     }
 

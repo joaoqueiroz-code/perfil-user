@@ -12,6 +12,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <title>Perfil</title>
     </head>
@@ -20,7 +21,7 @@
 
             <menu class="container-menu">
 
-                <h2 class="subtitle-current">Ações</h2>
+                <h2 class="subtitle-current">Sideboard</h2>
 
                 <ul>
                     <li class="menu-item"><button>Alterar e-mail</button></li>
@@ -69,8 +70,8 @@
                     <div class="input-group">
                         <label for="">Imagem</label>
 
-                        <img onclick="trigger()" id="previewImage" class="form-image"></img>
-                        <input hidden id="uploadImage" accept="" name="" type="file">
+                        <img onclick="trigger()" id="previewImage" style="object-fit: none; background-color: #fff;" src="img/image-regular.svg" class="form-image"></img>
+                        <input hidden id="uploadImage" onchange="previewImage()" accept="" name="" type="file">
                     </div>
 
                 </div>

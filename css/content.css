@@ -5,15 +5,18 @@
 .input-group {
     /* padding: 0.5em; */
     margin: 0.8em 0;
-    width: 35%;
+    width: 24em;
+
 }
 
 .input-group label {
     display: block;
+    margin: 1em 0;
 }
 
 .form-input {
-    background: #222;
+    background: #161118;
+    padding: 5px;
     border-radius: 0.6em;
     border: 1px solid #ccc;
     height: 2em;
@@ -22,12 +25,12 @@
 }
 
 .form-image {
-    width: 10em;
-    height: 10em;
+    width: 15em;
+    height: 15em;
     border-radius: 50%;
+    box-shadow: 1px 1px 7px #333236e0;
     margin: 0.8em 0;
-    border: 1px solid #ccc;
-    /* background: #ccc; */
+    border: 1px solid #333236e6;
 }
 
 .form-input:focus-visible, .form-input:focus{
